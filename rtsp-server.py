@@ -1,7 +1,6 @@
 # apt install -y gir1.2-gst-rtsp-server-1.0=1.14.5-0ubuntu1~18.04.1
 
 from multiprocessing import Process, Value, Array, Manager
-from filelock import Timeout, FileLock
 import time
 import cv2
 import gi 
